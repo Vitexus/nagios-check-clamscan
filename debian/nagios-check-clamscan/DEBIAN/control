@@ -1,0 +1,18 @@
+Package: nagios-check-clamscan
+Version: 1.4
+Architecture: all
+Maintainer: Vítězslav Vitex Dvořák <vitex@hippy.cz>
+Installed-Size: 75
+Depends: clamav, libproc-processtable-perl, libclass-date-perl, libdate-calc-perl, logrotate
+Section: utils
+Priority: extra
+Homepage: http://exchange.nagios.org/directory/Plugins/Anti-2DVirus/ClamAV/Clamscan-Monitoring-Plugin/details
+Description: This plugin checks the clamscan scan summary if any infected files were found.
+ The plugin checks various scenarios:
+ -the last scan was too long ago
+ -the current scan runs too long (e.g. clamscan hangs on an infected file)
+ -an infected file is listed in the scan summary
+ -the scan summary log could not be parsed correctly
+ -the scan summary log could not be opened by the plugin for parsing (e.g. plugin is not called with the correct log file path)
+ -If clamscan is currently running, the pid of the process is printed
+ -If the scan output could be parsed successfully, the engine version and the performance data of the scan are printed

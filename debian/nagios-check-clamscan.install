@@ -1,0 +1,5 @@
+check_clamscan			/usr/lib/nagios/plugins/
+clamscan			/etc/cron.daily/
+logrotate_clamscan.conf		/etc/
+check_calamscan.cfg		/etc/nagios/nrpe.d
+clamscan.conf			/etc/clamav/

@@ -1,0 +1,12 @@
+The Debian Package nagios-check-clamscan
+----------------------------
+
+ Plugin parameters:
+ ------------------
+ Call the plugin with
+ 		o The directory scanned by clamsscan
+ 		o The output log file (via stdout from clamsscan)
+ Example:
+ 		check_clamscan -sd /home/ -l /var/log/clamav/clamscan.log
+
+ -- Vítězslav Vitex Dvořák <vitex@hippy.cz>  Thu, 28 Nov 2013 14:00:26 +0100

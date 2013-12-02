@@ -1,0 +1,11 @@
+nagios-check-clamscan (1.4) UNRELEASED; urgency=low
+
+  * Doplnění konfiguráku scanovaných složek /etc/clamav/clamscan.conf 
+
+ -- Vítězslav Vitex Dvořák <vitex@hippy.cz>  Mon, 02 Dec 2013 14:10:38 +0100
+
+nagios-check-clamscan (1.0) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Vítězslav Vitex Dvořák <vitex@hippy.cz>  Thu, 28 Nov 2013 14:00:26 +0100

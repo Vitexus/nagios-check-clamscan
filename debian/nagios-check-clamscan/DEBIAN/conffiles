@@ -1,4 +1,0 @@
-/etc/clamav/clamscan.conf
-/etc/cron.daily/clamscan
-/etc/logrotate_clamscan.conf
-/etc/nagios/nrpe.d/check_calamscan.cfg

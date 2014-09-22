@@ -10,7 +10,7 @@ Vcs-Browser: https://github.com/Vitexus/nagios-check-clamscan
 
 Package: nagios-check-clamscan
 Architecture: all
-Depends: clamav,libproc-processtable-perl , libclass-date-perl , libdate-calc-perl , ${misc:Depends}, logrotate 
+Depends: clamav,libproc-processtable-perl , libclass-date-perl , libdate-calc-perl , ${misc:Depends}, logrotate, util-linux, coreutils
 Description: This plugin checks the clamscan scan summary if any infected files were found.
  The plugin checks various scenarios:
  -the last scan was too long ago

@@ -7,7 +7,7 @@ while read dir;
 do 
     [ -z "$dir" ] && continue
     echo "Dir: $dir" >> $LOGFILE
-    nice -20 ionice -c3 clamscan -r -i --stdout $dir >> $LOGFILE
+    nice -20 ionice -c3 clamscan -r -i --stdout $dir >> $LOGFILE  2>&1
 done < /etc/clamav/clamscan.conf
 exit 0
 

@@ -1,0 +1,18 @@
+name: check_clamscan
+description: "file:///README.md"
+url: "https://github.com/Vitexus/nagios-check-clamscan.git"
+tags: Security, Antivirus, clamav, file scanner, infection
+vendor: Linux
+target: Antivirus
+type: Plugin
+license: gplv3
+releases: 
+  - 
+    name: 1.4.7
+    description: "1.4.7 - stderr redirect to log"
+    files: 
+      - 
+        name: check_clamscan
+        url: "file:///check_clamscan"
+        description: "Clamav scanner for icinga"
+        checksum: 0c110b4d412af8be9c024fbbfe2da872
